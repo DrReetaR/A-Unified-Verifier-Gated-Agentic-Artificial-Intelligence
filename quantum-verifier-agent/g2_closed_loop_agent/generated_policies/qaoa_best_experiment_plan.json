@@ -1,0 +1,52 @@
+{
+  "agent": "ClosedLoopQAOAAgent",
+  "selected_problem": "weighted_4_node_ring_plus_diagonal",
+  "n_qubits": 4,
+  "p_layers": 2,
+  "best_angles": {
+    "gammas": [
+      2.323250919880003,
+      2.6372330707532137
+    ],
+    "betas": [
+      0.9506381681052898,
+      1.2716752434877385
+    ]
+  },
+  "expected_cut_cost": 3.859752571606136,
+  "approximation_ratio": 0.964938142901534,
+  "top_bitstrings": [
+    {
+      "bitstring_little_endian": "0101",
+      "probability": 0.45312869731671856,
+      "maxcut_cost": 4.0
+    },
+    {
+      "bitstring_little_endian": "1010",
+      "probability": 0.45312869731671856,
+      "maxcut_cost": 4.0
+    },
+    {
+      "bitstring_little_endian": "0110",
+      "probability": 0.014707802298726272,
+      "maxcut_cost": 2.7
+    },
+    {
+      "bitstring_little_endian": "1001",
+      "probability": 0.014707802298726272,
+      "maxcut_cost": 2.7
+    },
+    {
+      "bitstring_little_endian": "0011",
+      "probability": 0.01470780229872626,
+      "maxcut_cost": 2.7
+    },
+    {
+      "bitstring_little_endian": "1100",
+      "probability": 0.01470780229872626,
+      "maxcut_cost": 2.7
+    }
+  ],
+  "execution_backend": "local numpy statevector simulator",
+  "upgrade_path": "Replace simulator call with Qiskit Aer, IBM Runtime Sampler, Braket, or IonQ backend after safety approval."
+}

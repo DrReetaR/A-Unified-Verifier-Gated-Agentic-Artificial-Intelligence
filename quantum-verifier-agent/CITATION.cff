@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If this repository is used, please cite the accompanying paper."
+title: "A Unified Verifier-Gated Agentic AI Framework for Reliable Quantum Code Generation, Autonomous Circuit Design, and Closed-Loop Quantum Control"
+authors:
+  - family-names: "Author"
+    given-names: "First"
+version: 1.0.0
+date-released: 2026-07-07
+license: MIT
+keywords:
+  - quantum software engineering
+  - agentic AI
+  - large language models
+  - verifier-in-the-loop
+  - OpenQASM
+  - variational quantum circuits
+  - QAOA
+  - quantum sensing
+  - hardware safety

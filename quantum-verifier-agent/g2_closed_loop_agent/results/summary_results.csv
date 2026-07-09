@@ -1,0 +1,5 @@
+module,benchmark,main_metric,value,secondary_metric,secondary_value,safety_repairs
+Autonomous VQC design,two_qubit_parity_xor,classification_accuracy,1.0,selected_template,entangled_parity_vqc,0
+Autonomous QAOA design,weighted_4_node_ring_plus_diagonal,approximation_ratio,0.964938142901534,expected_cut_cost,3.8598,0
+Quantum sensor copilot,Ramsey phase estimation,absolute_phase_error,0.005843306622336342,posterior_std,0.0060,13
+Hardware-safety guard,unsafe proposal repair test,unsafe_proposals_repaired,4.0,total_demo_proposals,5,4

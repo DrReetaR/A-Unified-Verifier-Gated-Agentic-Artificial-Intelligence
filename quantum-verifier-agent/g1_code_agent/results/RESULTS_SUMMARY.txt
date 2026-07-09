@@ -1,0 +1,15 @@
+G1 Quantum Code Agent - Results Summary
+
+Benchmark tasks: 10
+Passed tasks: 10
+Pass rate: 100.0%
+Average total variation distance: 0.00000000
+Average iterations: 1.30
+Repaired tasks: 3
+
+Best research extension:
+Verifier-in-the-Loop Agentic AI Framework for Reliable Quantum Code Generation and Debugging.
+
+To run:
+  pip install -r requirements.txt
+  python experiments/run_experiment.py

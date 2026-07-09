@@ -1,0 +1,20 @@
+{
+  "policy_name": "G2 hardware-safe closed-loop experiment policy",
+  "purpose": "Prevent autonomous quantum-control agents from exceeding simulator/hardware limits before execution.",
+  "limits": {
+    "max_qubits": 8,
+    "max_shots": 4096,
+    "max_depth": 64,
+    "max_layers": 4,
+    "max_abs_angle": "2*pi",
+    "max_pulse_amplitude": 1.0,
+    "max_duty_cycle": 0.4,
+    "max_interrogation_time": 3.0
+  },
+  "actions": [
+    "validate proposal",
+    "clip/repair safe values",
+    "log all repairs",
+    "execute only accepted repaired proposal"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "agent": "QuantumSensorCopilot",
+  "experiment": "Ramsey phase estimation",
+  "true_phase_for_simulation": 0.62,
+  "final_estimate": 0.6258433066223363,
+  "absolute_error": 0.005843306622336342,
+  "posterior_std": 0.0060256876508836465,
+  "rounds": 14,
+  "shots_per_round": 256,
+  "upgrade_path": "Connect to real sensor/lab-control API after safety guard and human approval."
+}

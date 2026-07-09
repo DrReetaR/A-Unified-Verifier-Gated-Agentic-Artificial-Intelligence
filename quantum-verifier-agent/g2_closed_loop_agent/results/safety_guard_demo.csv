@@ -1,0 +1,6 @@
+task_type,accepted,repaired,original_qubits,safe_qubits,original_shots,safe_shots,original_tau,safe_tau,reasons
+qaoa_unsafe_shots,True,True,4,4,9000,4096,1.0,1.0,shots 9000 exceeds limit 4096
+vqc_too_many_qubits,True,True,12,8,1024,1024,1.0,1.0,n_qubits 12 exceeds limit 8
+sensor_unsafe_tau,True,True,1,1,512,512,6.0,3.0,"interrogation_time 6.000 outside [0.050, 3.000]"
+pulse_overdrive,True,True,1,1,512,512,1.0,1.0,pulse_amplitude 1.400 exceeds 1.000 | duty_cycle 0.550 exceeds 0.400
+safe_reference,True,False,2,2,1024,1024,1.0,1.0,accepted: proposal within all configured hardware-safety limits
